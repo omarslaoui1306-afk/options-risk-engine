@@ -1,0 +1,22 @@
+# Environnement
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+# Données (on versionne la structure, pas les gros fichiers)
+data/raw/*
+data/snapshots/*
+!data/**/.gitkeep
+# OS / IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Build
+*.egg-info/
+build/
+dist/
